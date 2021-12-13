@@ -33,7 +33,7 @@ def appium_driver(request):
     driver = webdriver.Remote(sauce_url, desired_caps)
     request.cls.driver = driver
     driver.implicitly_wait(10)
-    driver.start_activity('org.simple.clinic.staging', 'org.simple.clinic.setup.SetupActivity')
+    # driver.start_activity('org.simple.clinic.staging', 'org.simple.clinic.setup.SetupActivity')
     yield driver
     driver.execute_script("sauce:job-result=passed")
     driver.quit()

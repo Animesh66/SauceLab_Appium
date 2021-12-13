@@ -1,3 +1,4 @@
+import os
 import allure
 import pytest
 from allure_commons.types import AttachmentType
@@ -15,37 +16,26 @@ def pytest_runtest_makereport(item, call):
 
 @pytest.fixture(params=["device1", "device2"], scope="function")
 def appium_driver(request):
-    appium_service = AppiumService()
-    appium_service.start()
-    print(appium_service.is_running)
-    if request.param == "device1":
-        desired_caps = dict(
-
-            deviceName="Nexus 5",
-            platformName="Android",
-            appPackage="org.simple.clinic.staging",
-            appActivity="org.simple.clinic.setup.SetupActivity",
-            udid="emulator-5554"
-
-        )
-        driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
-    elif request.param == "device2":
-        desired_caps = dict(
-
-            deviceName="Pixel 4",
-            platformName="Android",
-            appPackage="org.simple.clinic.staging",
-            appActivity="org.simple.clinic.setup.SetupActivity",
-            udid="emulator-5556"
-
-        )
-        driver = webdriver.Remote('http://localhost:4724/wd/hub', desired_caps)
+    user_name = os.getenv("SAUCE_USERNAME")
+    access_key = os.getenv("SAUCE_ACCESS_KEY")
+    sauce_url = "https://{}:{}@ondemand.eu-central-1.saucelabs.com:443/wd/hub".format(user_name, access_key)
+    sauce_options = {
+        'name': request.node.name,
+        'capturePerformance': True,
+        'extendedDebugging': True
+    }
+    desired_caps = {}
+    desired_caps['platformName'] = 'Android'
+    desired_caps['appium:app'] = 'Simple_Demo.apk'
+    desired_caps['appium:deviceName'] = 'Google Pixel 3a GoogleAPI Emulator'
+    desired_caps['appium:platformVersion'] = '11.0'
+    desired_caps['sauce:options'] = sauce_options
+    desired_caps['sauce:options']['appiumVersion'] = '1.20.2'
+    driver = webdriver.Remote(sauce_url, desired_caps)
     request.cls.driver = driver
     driver.implicitly_wait(10)
     yield driver
     driver.quit()
-    appium_service.stop()
-    print(appium_service.is_running)
 
 
 @pytest.fixture()

@@ -28,13 +28,12 @@ def appium_driver(request):
     desired_caps['platformName'] = 'Android'
     desired_caps['appium:platformVersion'] = '10.0'
     desired_caps['appium:deviceName'] = 'Android GoogleAPI Emulator'
-    desired_caps['appium:app'] = 'storage:filename=Simple_Demo.apk'
+    desired_caps['appium:app'] = 'storage:filename=Simple DEMO_org.simple.clinic.staging.apk'
     desired_caps['sauce:options'] = sauce_options
 
     driver = webdriver.Remote(sauce_url, desired_caps)
     request.cls.driver = driver
     driver.implicitly_wait(10)
-    driver.start_activity('org.simple.clinic.staging', 'org.simple.clinic.setup.SetupActivity')
     yield driver
     driver.execute_script("sauce:job-result=passed")
     driver.quit()

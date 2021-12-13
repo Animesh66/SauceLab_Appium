@@ -20,16 +20,17 @@ def appium_driver(request):
     sauce_url = "https://{}:{}@ondemand.eu-central-1.saucelabs.com:443/wd/hub".format(user_name, access_key)
     sauce_options = {
         'name': request.node.name,
+        'appiumVersion' : '1.20.2',
         'capturePerformance': True,
         'extendedDebugging': True
     }
     desired_caps = {}
     desired_caps['platformName'] = 'Android'
-    desired_caps['appium:app'] = 'storage:filename=Simple_Demo.apk'
-    desired_caps['appium:deviceName'] = 'Google Pixel 3a GoogleAPI Emulator'
     desired_caps['appium:platformVersion'] = '11.0'
+    desired_caps['appium:deviceName'] = 'Google Pixel 3a GoogleAPI Emulator'
+    desired_caps['appium:app'] = 'storage:filename=Simple_Demo.apk'
     desired_caps['sauce:options'] = sauce_options
-    desired_caps['sauce:options']['appiumVersion'] = '1.20.2'
+
     driver = webdriver.Remote(sauce_url, desired_caps)
     request.cls.driver = driver
     driver.implicitly_wait(10)

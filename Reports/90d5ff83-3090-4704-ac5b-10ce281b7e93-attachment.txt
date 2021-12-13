@@ -1,0 +1,1 @@
+[32mINFO    [0m Pages.BasePage:BasePage.py:23 Clicking on the element: next_button_xpath

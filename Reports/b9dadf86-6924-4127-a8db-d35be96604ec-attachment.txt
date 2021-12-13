@@ -1,0 +1,4 @@
+[32mINFO    [0m Pages.BasePage:BasePage.py:23 Clicking on the element: next_button_xpath
+[32mINFO    [0m Pages.BasePage:BasePage.py:23 Clicking on the element: get_started_button_xpath
+[32mINFO    [0m Pages.BasePage:BasePage.py:23 Clicking on the element: select_country_radio_xpath
+[32mINFO    [0m Pages.BasePage:BasePage.py:23 Clicking on the element: select_clinic_radio_xpath

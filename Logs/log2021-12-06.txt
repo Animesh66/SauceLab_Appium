@@ -1,0 +1,133 @@
+2021-12-06 12:48:58,781 - BasePage.py:[22] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 12:59:23,230 - BasePage.py:[22] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 12:59:40,458 - BasePage.py:[22] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 13:00:46,911 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 13:01:00,983 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 13:05:05,237 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 13:05:15,996 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 13:10:23,664 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 13:10:24,396 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 13:10:26,499 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 13:10:28,485 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 13:10:30,445 - BasePage.py:[23] - [INFO] - Clicking on the element: enter_phone_no_id
+2021-12-06 13:10:30,976 - BasePage.py:[41] - [INFO] - Typing on the element: enter_phone_no_id entered the value as: ['9021921234']
+2021-12-06 13:10:43,070 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 13:10:45,104 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 13:10:47,282 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 13:10:48,831 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 13:10:51,043 - BasePage.py:[23] - [INFO] - Clicking on the element: enter_phone_no_id
+2021-12-06 13:10:51,598 - BasePage.py:[41] - [INFO] - Typing on the element: enter_phone_no_id entered the value as: ['9021921234']
+2021-12-06 13:13:37,202 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 13:13:38,204 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 13:13:39,982 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 13:13:41,233 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 13:13:43,681 - BasePage.py:[23] - [INFO] - Clicking on the element: enter_phone_no_id
+2021-12-06 13:13:44,199 - BasePage.py:[41] - [INFO] - Typing on the element: enter_phone_no_id entered the value as: ['9021921234']
+2021-12-06 13:13:56,047 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 13:13:57,033 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 13:14:01,267 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 13:14:02,445 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 13:14:05,347 - BasePage.py:[23] - [INFO] - Clicking on the element: enter_phone_no_id
+2021-12-06 13:14:05,397 - BasePage.py:[41] - [INFO] - Typing on the element: enter_phone_no_id entered the value as: ['1234']
+2021-12-06 13:14:16,855 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 13:14:17,779 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 13:14:19,527 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 13:14:20,892 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 13:14:22,581 - BasePage.py:[23] - [INFO] - Clicking on the element: enter_phone_no_id
+2021-12-06 13:14:23,109 - BasePage.py:[41] - [INFO] - Typing on the element: enter_phone_no_id entered the value as: ['9021921234']
+2021-12-06 13:14:34,767 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 13:14:35,700 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 13:14:37,234 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 13:14:38,326 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 13:14:39,983 - BasePage.py:[23] - [INFO] - Clicking on the element: enter_phone_no_id
+2021-12-06 13:14:40,510 - BasePage.py:[41] - [INFO] - Typing on the element: enter_phone_no_id entered the value as: ['1234']
+2021-12-06 13:15:43,330 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 13:15:44,323 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 13:15:46,384 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 13:15:47,690 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 13:15:49,414 - BasePage.py:[23] - [INFO] - Clicking on the element: enter_phone_no_id
+2021-12-06 13:15:49,948 - BasePage.py:[41] - [INFO] - Typing on the element: enter_phone_no_id entered the value as: ['9021921234']
+2021-12-06 13:16:01,868 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 13:16:02,777 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 13:16:04,987 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 13:16:06,834 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 13:16:08,492 - BasePage.py:[23] - [INFO] - Clicking on the element: enter_phone_no_id
+2021-12-06 13:16:09,020 - BasePage.py:[41] - [INFO] - Typing on the element: enter_phone_no_id entered the value as: ['1234']
+2021-12-06 14:10:43,024 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 14:10:45,552 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 14:10:46,704 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 14:10:48,276 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 14:10:51,234 - BasePage.py:[23] - [INFO] - Clicking on the element: enter_phone_no_id
+2021-12-06 14:10:51,539 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 14:10:51,899 - BasePage.py:[41] - [INFO] - Typing on the element: enter_phone_no_id entered the value as: ['9021921234']
+2021-12-06 14:10:52,624 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 14:10:54,817 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 14:10:56,265 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 14:10:58,084 - BasePage.py:[23] - [INFO] - Clicking on the element: enter_phone_no_id
+2021-12-06 14:10:58,643 - BasePage.py:[41] - [INFO] - Typing on the element: enter_phone_no_id entered the value as: ['1234']
+2021-12-06 14:11:05,520 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 14:11:06,454 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 14:11:09,791 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 14:11:11,013 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 14:11:12,692 - BasePage.py:[23] - [INFO] - Clicking on the element: enter_phone_no_id
+2021-12-06 14:11:13,218 - BasePage.py:[41] - [INFO] - Typing on the element: enter_phone_no_id entered the value as: ['9021921234']
+2021-12-06 14:51:06,547 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 14:51:07,483 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 14:51:09,316 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 14:51:10,507 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 14:51:12,668 - BasePage.py:[23] - [INFO] - Clicking on the element: enter_phone_no_id
+2021-12-06 14:51:13,185 - BasePage.py:[41] - [INFO] - Typing on the element: enter_phone_no_id entered the value as: ['9021921234']
+2021-12-06 14:52:12,194 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 14:52:13,204 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 14:52:14,721 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 14:52:15,979 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 14:52:18,023 - BasePage.py:[23] - [INFO] - Clicking on the element: enter_phone_no_id
+2021-12-06 14:52:18,561 - BasePage.py:[41] - [INFO] - Typing on the element: enter_phone_no_id entered the value as: ['9021921234']
+2021-12-06 14:52:32,072 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 14:52:32,989 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 14:52:34,968 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 14:52:36,116 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 14:52:37,865 - BasePage.py:[23] - [INFO] - Clicking on the element: enter_phone_no_id
+2021-12-06 14:52:38,381 - BasePage.py:[41] - [INFO] - Typing on the element: enter_phone_no_id entered the value as: ['1234']
+2021-12-06 14:55:21,106 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 14:55:21,949 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 14:55:23,660 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 14:55:24,944 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 14:55:26,885 - BasePage.py:[23] - [INFO] - Clicking on the element: enter_phone_no_id
+2021-12-06 14:55:27,411 - BasePage.py:[41] - [INFO] - Typing on the element: enter_phone_no_id entered the value as: ['9021921234']
+2021-12-06 14:55:37,941 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 14:55:38,932 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 14:55:40,740 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 14:55:42,028 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 14:55:44,223 - BasePage.py:[23] - [INFO] - Clicking on the element: enter_phone_no_id
+2021-12-06 14:55:44,751 - BasePage.py:[41] - [INFO] - Typing on the element: enter_phone_no_id entered the value as: ['1234']
+2021-12-06 14:55:58,338 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 14:55:59,328 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 14:56:01,152 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 14:56:03,640 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 14:56:05,604 - BasePage.py:[23] - [INFO] - Clicking on the element: enter_phone_no_id
+2021-12-06 14:56:06,127 - BasePage.py:[41] - [INFO] - Typing on the element: enter_phone_no_id entered the value as: ['9021921234']
+2021-12-06 14:56:19,523 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 14:56:20,534 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 14:56:22,059 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 14:56:23,248 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 14:56:25,785 - BasePage.py:[23] - [INFO] - Clicking on the element: enter_phone_no_id
+2021-12-06 14:56:26,306 - BasePage.py:[41] - [INFO] - Typing on the element: enter_phone_no_id entered the value as: ['1234']
+2021-12-06 15:27:34,439 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 15:27:50,653 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 15:28:19,522 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 15:28:20,486 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 15:28:22,658 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 15:28:23,965 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 15:28:25,789 - BasePage.py:[23] - [INFO] - Clicking on the element: enter_phone_no_id
+2021-12-06 15:28:26,334 - BasePage.py:[41] - [INFO] - Typing on the element: enter_phone_no_id entered the value as: ['9021921234']
+2021-12-06 15:28:27,644 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 15:28:29,774 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 15:28:30,942 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 15:28:32,638 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 15:29:24,283 - BasePage.py:[23] - [INFO] - Clicking on the element: next_button_xpath
+2021-12-06 15:29:25,226 - BasePage.py:[23] - [INFO] - Clicking on the element: get_started_button_xpath
+2021-12-06 15:29:26,849 - BasePage.py:[23] - [INFO] - Clicking on the element: select_country_radio_xpath
+2021-12-06 15:29:27,951 - BasePage.py:[23] - [INFO] - Clicking on the element: select_clinic_radio_xpath
+2021-12-06 15:29:29,670 - BasePage.py:[23] - [INFO] - Clicking on the element: enter_phone_no_id
+2021-12-06 15:29:30,185 - BasePage.py:[41] - [INFO] - Typing on the element: enter_phone_no_id entered the value as: ['9021921234']

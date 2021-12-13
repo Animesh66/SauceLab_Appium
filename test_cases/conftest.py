@@ -3,7 +3,6 @@ import allure
 import pytest
 from allure_commons.types import AttachmentType
 from appium import webdriver
-from appium.webdriver.appium_service import AppiumService
 
 
 @pytest.hookimpl(hookwrapper=True, tryfirst=True)
@@ -14,7 +13,7 @@ def pytest_runtest_makereport(item, call):
     return rep
 
 
-@pytest.fixture(params=["device1", "device2"], scope="function")
+@pytest.fixture(scope="function")
 def appium_driver(request):
     user_name = os.getenv("SAUCE_USERNAME")
     access_key = os.getenv("SAUCE_ACCESS_KEY")
@@ -35,6 +34,7 @@ def appium_driver(request):
     request.cls.driver = driver
     driver.implicitly_wait(10)
     yield driver
+    driver.execute_script("sauce:job-result=passed")
     driver.quit()
 
 

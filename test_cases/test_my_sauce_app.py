@@ -6,4 +6,4 @@ class TestMyDemoSauce(BaseTest):
 
     @pytest.mark.sanity
     def test_my_demo_sauce(self):
-        pass
+        assert True

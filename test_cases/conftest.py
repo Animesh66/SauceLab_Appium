@@ -22,7 +22,8 @@ def appium_driver(request):
         'name': request.node.name,
         'appiumVersion': '1.20.2',
         'capturePerformance': True,
-        'extendedDebugging': True
+        'extendedDebugging': True,
+        'deviceName': 'Android GoogleAPI Emulator'
     }
     desired_caps = {}
     # desired_caps['appium:platformName'] = 'Android'

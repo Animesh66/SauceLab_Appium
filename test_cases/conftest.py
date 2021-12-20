@@ -22,8 +22,7 @@ def appium_driver(request):
         'name': request.node.name,
         'appiumVersion': '1.20.2',
         'capturePerformance': True,
-        'extendedDebugging': True,
-        'browserName': 'Chrome'
+        'extendedDebugging': True
     }
 
     desired_caps = {}

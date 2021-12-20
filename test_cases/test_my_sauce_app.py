@@ -5,5 +5,5 @@ import pytest
 class TestMyDemoSauce(BaseTest):
 
     @pytest.mark.sanity
-    def test_my_demo_sauce(self):
+    def test_demo_sauce_app(self):
         assert True

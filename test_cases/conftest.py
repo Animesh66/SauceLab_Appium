@@ -25,11 +25,15 @@ def appium_driver(request):
         'extendedDebugging': True
     }
     desired_caps = {}
-    desired_caps['platformName'] = 'Android'
+    # desired_caps['appium:platformName'] = 'Android'
+    # desired_caps['appium:platformVersion'] = '10.0'
+    # desired_caps['appium:deviceName'] = 'Android GoogleAPI Emulator'
+    # desired_caps['appium:app'] = 'storage:filename=Simple_Demo.apk'
+    # desired_caps['appium:app']='https://github.com/Animesh66/SauceLab_Appium/blob/95a35791314a9d0f53667ca945ba8091930beb43/Simple_Demo.apk'
+    desired_caps['appium:platformName'] = 'Android'
     desired_caps['appium:platformVersion'] = '10.0'
     desired_caps['appium:deviceName'] = 'Android GoogleAPI Emulator'
-    desired_caps['appium:app'] = 'storage:filename=Simple_Demo.apk'
-    # desired_caps['appium:app']='https://github.com/Animesh66/SauceLab_Appium/blob/95a35791314a9d0f53667ca945ba8091930beb43/Simple_Demo.apk'
+    desired_caps['appium:app'] = 'storage:filename=mda-1.0.8-10.apk'
     desired_caps['sauce:options'] = sauce_options
     driver = webdriver.Remote(sauce_url, desired_caps)
     request.cls.driver = driver

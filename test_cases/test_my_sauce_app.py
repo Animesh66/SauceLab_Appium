@@ -2,8 +2,8 @@ from test_cases.BaseTest import BaseTest
 import pytest
 
 
-class TestVerifyPhoneNo(BaseTest):
+class TestMyDemoSauce(BaseTest):
 
     @pytest.mark.sanity
-    def test_verify_phone_no(self, phone_number):
+    def test_my_demo_sauce(self):
         pass

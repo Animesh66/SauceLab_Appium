@@ -23,7 +23,7 @@ def appium_driver(request):
         'appiumVersion': '1.20.2',
         'capturePerformance': True,
         'extendedDebugging': True,
-        'browserName' : 'Chrome'
+        'browserName': 'Chrome'
     }
 
     desired_caps = {}
@@ -32,7 +32,7 @@ def appium_driver(request):
     # desired_caps['appium:deviceName'] = 'Android GoogleAPI Emulator'
     # desired_caps['appium:app'] = 'storage:filename=Simple_Demo.apk'
     # desired_caps['appium:app']='https://github.com/Animesh66/SauceLab_Appium/blob/95a35791314a9d0f53667ca945ba8091930beb43/Simple_Demo.apk'
-    desired_caps['appium:deviceName'] = 'Android GoogleAPI Emulator'
+    desired_caps['appium:deviceName'] = 'Google Pixel 3 GoogleAPI Emulator'
     desired_caps['appium:platformName'] = 'Android'
     desired_caps['appium:platformVersion'] = '10.0'
     desired_caps['appium:app'] = 'storage:filename=mda-1.0.8-10.apk'

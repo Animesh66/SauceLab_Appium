@@ -33,7 +33,7 @@ def appium_driver(request):
     desired_caps['platformName'] = 'Android'
     desired_caps['appium:deviceName'] = 'Google Pixel 3 GoogleAPI Emulator'
     desired_caps['appium:deviceType'] = 'phone'
-    desired_caps['appium:platformVersion'] = '10.0'
+    desired_caps['appium:platformVersion'] = '11.0'
     desired_caps['appium:app'] = 'storage:filename=mda-1.0.8-10.apk'
     desired_caps['sauce:options'] = sauce_options
 

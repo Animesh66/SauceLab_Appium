@@ -20,7 +20,7 @@ def appium_driver(request):
     sauce_url = "https://{}:{}@ondemand.eu-central-1.saucelabs.com:443/wd/hub".format(user_name, access_key)
     sauce_options = {
         'name': request.node.name,
-        'appiumVersion': '1.20.2',
+        'appiumVersion': '',  # this is blank and indicates to use latest Appium version
         'capturePerformance': True,
         'extendedDebugging': True
     }

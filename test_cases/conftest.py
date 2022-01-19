@@ -36,7 +36,7 @@ def appium_driver(request):
     desired_caps['appium:app'] = 'storage:filename=mda-1.0.8-10.apk'
     desired_caps['sauce:options'] = sauce_options
 
-    driver = webdriver.Remote(sauce_url, desired_caps)
+    driver = webdriver.Remote(sauce_url, desired_capabilities=desired_caps)
     request.cls.driver = driver
     driver.implicitly_wait(10)
     yield driver
